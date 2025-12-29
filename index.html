@@ -3,151 +3,142 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NITIN TREDER | Official Telegram Community</title>
+<title>NITIN TREDER | Number Analysis Community</title>
 
-<!-- Google Font -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
-}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
 body{
-    background:radial-gradient(circle at top,#3a2b0f,#0b0b0b 70%);
-    color:#fff;
-    min-height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding:20px;
+background:radial-gradient(circle at top,#3a2b0f,#0b0b0b 70%);
+color:#fff;
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:20px;
 }
 .container{
-    max-width:430px;
-    width:100%;
-    background:linear-gradient(180deg,#1a1408,#0b0b0b);
-    border-radius:22px;
-    padding:30px 25px;
-    text-align:center;
-    box-shadow:0 0 60px rgba(255,215,0,0.25);
-    border:1px solid rgba(255,215,0,0.25);
-    animation:fadeUp 1.2s ease;
+max-width:440px;
+width:100%;
+background:linear-gradient(180deg,#1a1408,#0b0b0b);
+border-radius:24px;
+padding:32px 26px;
+text-align:center;
+border:1px solid rgba(255,215,0,0.3);
+box-shadow:0 0 60px rgba(255,215,0,0.25);
+animation:fadeUp 1.1s ease;
 }
 @keyframes fadeUp{
-    from{opacity:0;transform:translateY(40px);}
-    to{opacity:1;transform:translateY(0);}
+from{opacity:0;transform:translateY(40px)}
+to{opacity:1;transform:translateY(0)}
 }
 
 /* LOGO */
 .logo{
-    width:120px;
-    height:120px;
-    margin:0 auto 15px;
-    border-radius:50%;
-    overflow:hidden;
-    border:3px solid #ffd700;
-    box-shadow:0 0 30px rgba(255,215,0,0.8);
+width:120px;height:120px;
+margin:0 auto 18px;
+border-radius:50%;
+overflow:hidden;
+border:3px solid #ffd700;
+box-shadow:0 0 35px rgba(255,215,0,0.9);
 }
 .logo img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
+width:100%;height:100%;object-fit:cover;
 }
 
 /* TEXT */
 h1{
-    font-size:30px;
-    font-weight:900;
-    letter-spacing:1.2px;
-    text-transform:uppercase;
-    background:linear-gradient(45deg,#ffd700,#ffb700,#ffd700);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-    margin-bottom:8px;
+font-size:30px;
+font-weight:900;
+letter-spacing:1.4px;
+text-transform:uppercase;
+background:linear-gradient(45deg,#ffd700,#ffb700,#ffd700);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+margin-bottom:6px;
 }
 .tagline{
-    font-size:14px;
-    opacity:0.9;
-    margin-bottom:22px;
+font-size:14px;
+opacity:0.9;
+margin-bottom:24px;
 }
 
 /* STATS */
 .stats{
-    display:flex;
-    justify-content:space-between;
-    margin-bottom:26px;
+display:flex;
+justify-content:space-between;
+margin-bottom:26px;
 }
 .stat{
-    width:32%;
-    background:rgba(255,215,0,0.08);
-    border-radius:14px;
-    padding:12px 5px;
-    border:1px solid rgba(255,215,0,0.25);
+width:32%;
+background:rgba(255,215,0,0.08);
+border-radius:14px;
+padding:12px 6px;
+border:1px solid rgba(255,215,0,0.25);
 }
 .stat h3{
-    font-size:16px;
-    font-weight:800;
-    color:#ffd700;
+font-size:16px;
+font-weight:800;
+color:#ffd700;
 }
 .stat p{
-    font-size:12px;
-    opacity:0.8;
+font-size:12px;
+opacity:0.85;
 }
 
 /* BUTTON */
 .join-btn{
-    display:block;
-    width:100%;
-    padding:16px;
-    background:linear-gradient(45deg,#ffd700,#ffb700);
-    color:#000;
-    font-size:18px;
-    font-weight:800;
-    border-radius:50px;
-    text-decoration:none;
-    box-shadow:0 0 35px rgba(255,215,0,1);
-    animation:glow 1.5s infinite;
+display:block;
+width:100%;
+padding:16px;
+background:linear-gradient(45deg,#ffd700,#ffb700);
+color:#000;
+font-size:18px;
+font-weight:800;
+border-radius:50px;
+text-decoration:none;
+box-shadow:0 0 40px rgba(255,215,0,1);
+animation:glow 1.5s infinite;
 }
 @keyframes glow{
-    0%{box-shadow:0 0 20px rgba(255,215,0,0.6);}
-    50%{box-shadow:0 0 45px rgba(255,215,0,1);}
-    100%{box-shadow:0 0 20px rgba(255,215,0,0.6);}
+0%{box-shadow:0 0 22px rgba(255,215,0,0.6)}
+50%{box-shadow:0 0 45px rgba(255,215,0,1)}
+100%{box-shadow:0 0 22px rgba(255,215,0,0.6)}
 }
 
 /* FEATURES */
 .features{
-    margin-top:26px;
-    text-align:left;
+margin-top:26px;
+text-align:left;
 }
 .features li{
-    list-style:none;
-    font-size:14px;
-    margin-bottom:10px;
-    padding-left:24px;
-    position:relative;
+list-style:none;
+font-size:14px;
+margin-bottom:10px;
+padding-left:26px;
+position:relative;
 }
 .features li::before{
-    content:"★";
-    position:absolute;
-    left:0;
-    color:#ffd700;
+content:"✔";
+position:absolute;
+left:0;
+color:#ffd700;
 }
 
 /* DISCLAIMER */
 .disclaimer{
-    font-size:11px;
-    opacity:0.7;
-    margin-top:22px;
-    line-height:1.5;
-    border-top:1px solid rgba(255,215,0,0.2);
-    padding-top:12px;
+font-size:11px;
+opacity:0.75;
+margin-top:22px;
+line-height:1.55;
+border-top:1px solid rgba(255,215,0,0.25);
+padding-top:14px;
 }
 .footer{
-    margin-top:14px;
-    font-size:11px;
-    opacity:0.6;
+margin-top:14px;
+font-size:11px;
+opacity:0.6;
 }
 </style>
 </head>
@@ -156,50 +147,50 @@ h1{
 
 <div class="container">
 
-    <!-- CUSTOM LOGO IMAGE -->
-    <!-- logo.png नाम से image upload करके इसी repo में डालें -->
-    <div class="logo">
-        <img src="logo.png" alt="NITIN TREDER Logo">
-    </div>
+<!-- CUSTOM LOGO -->
+<div class="logo">
+<img src="logo.png" alt="NITIN TREDER Logo">
+</div>
 
-    <h1>NITIN TREDER</h1>
-    <p class="tagline">Premium Telegram Community • Educational Purpose</p>
+<h1>NITIN TREDER</h1>
+<p class="tagline">Number Analysis • Educational Community</p>
 
-    <div class="stats">
-        <div class="stat">
-            <h3>Live</h3>
-            <p>Updates</p>
-        </div>
-        <div class="stat">
-            <h3>VIP</h3>
-            <p>Community</p>
-        </div>
-        <div class="stat">
-            <h3>Secure</h3>
-            <p>Access</p>
-        </div>
-    </div>
+<div class="stats">
+<div class="stat">
+<h3>50,000+</h3>
+<p>Community Reach</p>
+</div>
+<div class="stat">
+<h3>Live</h3>
+<p>Updates</p>
+</div>
+<div class="stat">
+<h3>Secure</h3>
+<p>Access</p>
+</div>
+</div>
 
-    <a class="join-btn" href="https://t.me/sikkimgame_rajagame_damangames" target="_blank">
-        ✨ JOIN OFFICIAL TELEGRAM
-    </a>
+<a class="join-btn" href="https://t.me/sikkimgame_rajagame_damangames" target="_blank">
+✨ JOIN OFFICIAL TELEGRAM
+</a>
 
-    <ul class="features">
-        <li>Educational & informational content only</li>
-        <li>Community-based discussions</li>
-        <li>No guaranteed income or profit claims</li>
-        <li>Transparent & responsible sharing</li>
-    </ul>
+<ul class="features">
+<li>Number-based trend & pattern analysis</li>
+<li>Educational & informational content only</li>
+<li>Community discussion & learning support</li>
+<li>Transparent and responsible sharing</li>
+<li>Mobile-friendly secure access</li>
+</ul>
 
-    <div class="disclaimer">
-        Disclaimer: This platform is strictly for educational and informational
-        purposes. We do not provide financial advice, investment advice, or
-        guaranteed results. Participation is voluntary and at your own discretion.
-    </div>
+<div class="disclaimer">
+Disclaimer: This community is strictly for educational and informational purposes.
+We do not provide financial advice, guaranteed outcomes, or profit assurances.
+Any actions taken are voluntary and subject to individual discretion and platform rules.
+</div>
 
-    <div class="footer">
-        © 2025 NITIN TREDER • All Rights Reserved
-    </div>
+<div class="footer">
+© 2025 NITIN TREDER • All Rights Reserved
+</div>
 
 </div>
 
